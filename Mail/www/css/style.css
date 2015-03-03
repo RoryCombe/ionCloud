@@ -114,10 +114,11 @@ a {
 
 .msgList {
 	padding-top: 10px;
-	/*margin-left: 40px !important;*/ 
+	/*margin-left: 40px !important;*/
 }
 
 .msgPreview {
+	background-color: #fafafa !important;
 	font-weight: 500;
 	padding: 5px 10px 10px 38px;
 	border-top: 0;
@@ -158,11 +159,13 @@ a {
 }
 
 .content .col:first-child {
+	background-color: #fafafa !important;
 	border-right: 1px solid #ddd;
 	max-width: 380px !important;
 }
 
 .searchBar {
+	background-color: #f3f3f3 !important;
 	font-size: 30px;
 	color: #ccc !important;
 	padding-left: 10px;
@@ -174,6 +177,10 @@ a {
 	background-color: transparent;
 	padding-left: 10px;
 	line-height: 1;
+}
+
+.messageContentBar {
+	background-color: #fafafa !important;
 }
 
 .messageContentBar button,
