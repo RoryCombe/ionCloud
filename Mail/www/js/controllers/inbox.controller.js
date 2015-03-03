@@ -6,7 +6,7 @@
         .controller("InboxCtrl", control);
 
     function control($scope, $ionicPopover) {
-        var ctrl = this;
+        var ctrl = this; // jshint ignore:line
 
         ctrl.messages = [
 			{
