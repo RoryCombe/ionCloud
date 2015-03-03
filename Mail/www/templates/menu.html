@@ -1,0 +1,69 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content class="mailContent">
+	<!-- <ion-nav-bar class="bar-stable">
+	  <ion-nav-back-button>
+	  </ion-nav-back-button>
+
+	  <ion-nav-buttons side="left">
+		<button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+		</button>
+	  </ion-nav-buttons>
+	</ion-nav-bar> -->
+	<div ui-view="menuContent" class="menuContent"></div>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left" expose-aside-when="large" class="mailMenu">
+	<ion-header-bar align-title="left">
+	  <h1 class="title">ionCloud <a href="#">Mail</a></h1>
+	</ion-header-bar>
+	<ion-content>
+	  <ion-list class="mailMenuItems">
+		<ion-item nav-clear menu-close href="#/app/inbox" class="item-icon-left">
+		  <span class="ion-ios-filing-outline icon"></span> Inbox
+		</ion-item>
+		<div class="divider"></div>
+		<ion-item nav-clear menu-close href="#/app/vip" class="item-icon-left">
+		  <span class="ion-ios-star-outline icon"></span>VIP
+		</ion-item>
+		<div class="divider"></div>
+		<ion-item nav-clear menu-close href="#/app/drafts" class="item-icon-left">
+		  <span class="ion-ios-copy-outline icon"></span>Drafts
+		</ion-item>
+		<div class="divider"></div>
+		<ion-item nav-clear menu-close href="#/app/sent" class="item-icon-left">
+		  <span class="ion-ios-paperplane-outline icon"></span>Sent
+		</ion-item>
+		<div class="divider"></div>
+		<ion-item nav-clear menu-close href="#/app/archive" class="item-icon-left">
+		  <span class="ion-ios-box-outline icon"></span>Archive
+		</ion-item>
+		<div class="divider"></div>
+		<ion-item nav-clear menu-close href="#/app/trash" class="item-icon-left">
+		  <span class="ion-ios-trash-outline icon"></span>Trash
+		</ion-item>
+		<div class="divider"></div>
+		<ion-item nav-clear menu-close href="#/app/junk" class="item-icon-left">
+		  <span class="ion-ios-close-outline icon"></span>Junk
+		</ion-item>
+	  </ion-list>
+	  <ion-list class="mailMenuFolders">
+		<ion-item nav-clear menu-close href="#" class="item-icon-right">
+		  Folders <span class="ion-ios-plus-empty icon"></span>
+		</ion-item>
+	  </ion-list>
+	</ion-content>
+	<ion-footer-bar align-title="left">
+		<div class="buttons">
+			<button class="button button-clear">
+				<span class="ion-ios-gear-outline"></span>
+			</button>
+		</div>
+		<h1 class="title"></h1>
+		<div class="buttons" ng-click="doSomething()">
+			<button class="button button-clear">
+				<span class="ion-ios-refresh-empty"></span>
+			</button>
+		</div>
+	</ion-footer-bar>
+  </ion-side-menu>
+</ion-side-menus>

@@ -1,0 +1,36 @@
+<div class="row content">
+	<div class="col">
+		<div class="bar bar-header bar-stable searchBar">
+			<span class="ion-ios-search"></span>
+			<input type="text" placeholder="Search Inbox"/>
+		</div>
+		<div class="row filterBar">
+			<div class="col col-10"><span class="ion-ios-arrow-left muted"></span></div>
+			<div class="col">
+				<a href="" ng-click="ctrl.openPopover($event)" class="muted">Sort by Date <span class="ion-ios-arrow-down"></span></a>
+			</div>
+		</div>
+		<div class="list msgList">
+	    	<a class="item msgPreview" ng-repeat="msg in ctrl.messages" href="#/app/inbox/message/123">
+	    		<div class="from">{{ msg.from }}</div>
+	    		<div class="subject">{{ msg.subject }}</div>
+	    		<div class="body">{{ msg.body | previewText:85 }}</div>
+	    		<div class="divider"></div>
+	    	</a>
+	    </div>
+	</div>
+	<div class="col">
+		<div class="bar bar-header bar-light messageContentBar">
+			<button class="button button-clear icon ion-ios-undo-outline"></button>
+			<button class="button button-clear icon ion-ios-flag-outline"></button>
+			<button class="button button-clear icon ion-ios-trash-outline"></button>
+			<button class="button button-clear icon ion-ios-folder-outline"></button>
+			<button class="button button-clear icon ion-ios-compose-outline"></button>
+		  	<h1 class="title"></h1>
+		  	<button class="button button-clear user">John Doe <span class="ion-ios-arrow-down"></span></button>
+			<span class="separator">&nbsp;</span>
+			<button class="button button-clear icon ion-ios-help-outline help"></button>
+		</div>
+		<div ui-view="messageContent"></div>
+	</div>
+</div>

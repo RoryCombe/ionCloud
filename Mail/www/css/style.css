@@ -1,0 +1,234 @@
+/* Empty. Add your own CSS if you like */
+
+body {
+	-webkit-font-smoothing: antialiased;
+	font-family: "Helvetica Neue",sans-serif;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+}
+
+.muted {
+	color: #888;
+}
+
+.platform-ios .popover, 
+.platform-ios .popover .bar-header {
+	border-radius: 0;
+}
+
+.mailMenu {
+	/*max-width: 250px;*/
+}
+
+.mailContent {
+	/*-webkit-transform: translate3d(275px, 0px, 0px) !important;*/
+	box-shadow: none;
+	border-left: 1px solid rgba(0,95,167,0.35);
+}
+
+.mailMenu .bar a {
+	color: #007aff !important;
+	font-weight: 300;
+}
+
+.mailMenu,
+.mailMenu .item,
+.mailMenu .item-content {
+	background-color: #ddeefb !important;
+	font-size: 17px;
+	color: #465d6f;
+	padding: 12px;
+}
+
+.mailMenuItems .item,
+.mailMenuItems .item-context {
+	padding: 0px 20px;
+}
+
+.mailMenuItems .item {
+	border: 0;
+}
+
+.mailMenuFolders .item-content {
+	padding: 0px 10px;
+}
+
+.mailMenu .divider {
+	border-bottom: 1px solid #ddd;
+	background-color: #cde3f1;
+	margin-left: 50px;
+	height: 3px;
+}
+
+.mailMenu .bar {
+	background-color: #ddeefb !important;
+	color: #465d6f;
+}
+
+.mailMenu .bar .title {
+	font-size: 21px;
+}
+
+.mailMenu .bar-header {
+	border-bottom: 1px solid rgba(0,95,167,0.35);
+}
+
+.mailMenu .bar-footer {
+	border-top: 1px solid rgba(0,95,167,0.35);
+}
+
+.mailMenu .bar-footer .button {
+	font-size: 21px;
+	color: #465d6f;
+}
+
+.mailMenu [class^="ion-"] {
+	font-size: 32px;
+}
+
+.menuContent, .content {
+	height: 100%;
+}
+
+.filterBar {
+	border-bottom: 1px solid #ddd;
+}
+
+.filterBar {
+	padding: 0;
+	font-size: 13px;
+}
+
+.filterBar .col {
+	text-align: right;
+	padding: 0 10px !important;
+}
+
+.filterBar .col:first-child {
+	max-width: 25px !important;
+	text-align: center;
+}
+
+.msgList {
+	padding-top: 10px;
+	/*margin-left: 40px !important;*/ 
+}
+
+.msgPreview {
+	font-weight: 500;
+	padding: 5px 10px 10px 38px;
+	border-top: 0;
+	border-bottom: 0;
+}
+
+.msgPreview .divider {
+	border-bottom: 1px solid #ddd;
+	margin: 15px -10px 0 0;
+}
+
+.msgPreview .from {
+	font-size: 17px;
+}
+
+.msgPreview .subject {
+	font-size: 15px;
+}
+
+.msgPreview .body {
+	white-space: normal;
+	font-size: 15px;
+	color: #777;
+}
+
+.content,
+.content .col {
+	padding: 0;
+}
+
+.content .bar {
+	position: relative;
+	border-bottom: 1px solid rgba(0,95,167,0.35);
+}
+
+.content .list .item:first-child {
+	border-top: 0;
+}
+
+.content .col:first-child {
+	border-right: 1px solid #ddd;
+	max-width: 380px !important;
+}
+
+.searchBar {
+	font-size: 30px;
+	color: #ccc !important;
+	padding-left: 10px;
+}
+
+.searchBar input {
+	font-size: 19px;
+	font-weight: 200;
+	background-color: transparent;
+	padding-left: 10px;
+	line-height: 1;
+}
+
+.messageContentBar button,
+.messageContentBar span {
+	color: #007aff !important;
+	margin: 0 14px;
+}
+
+.messageContentBar .user,
+.messageContentBar .separator,
+.messageContentBar .help {
+	position: absolute;
+}
+
+.messageContentBar .user {
+	font-size: 21px !important;
+	right: 65px;
+	margin-right: 0;
+}
+
+.messageContentBar .user span {
+	font-size: 16px;
+}
+
+.messageContentBar .separator {
+	line-height: 1.1;
+	border-right: 1px solid #ddd;
+	right: 50px;
+}
+
+.messageContentBar .help {
+	right: 0px;
+	margin-right: 8px;
+}
+
+.messageContentBar span {
+	font-size: 24px;
+	margin: 4px 0;
+}
+
+.messageContent {
+	padding: 20px;	
+	font-size: 15px;
+}
+
+.messageContent a {
+	color: #007aff !important;
+	font-weight: 300;
+}
+
+.messageContent .title{
+	font-size: 27px;	
+}
+
+.messageContent .divider {
+	border-bottom: 1px solid #ddd;
+	margin: 15px -20px 15px 0;
+}
