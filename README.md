@@ -1,0 +1,1 @@
+A front-end playground project - a clone of a popular cloud portal using the Ionic Framework and AngularJS
